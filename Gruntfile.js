@@ -19,7 +19,8 @@ module.exports = function (grunt) {
               '*.html',
               'views/**/*',
               '*.ico',
-              'styles/img/**/*'
+              'styles/img/**/*',
+              'data/**/*'
             ],
             dest: '<%= app.dist %>'
           }
@@ -85,7 +86,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:alexmt/resume.git',
+          remote: 'git@github.com:alexmt/edem-cafe.git',
           branch: 'gh-pages'
         }
       }
