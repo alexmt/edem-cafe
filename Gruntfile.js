@@ -85,7 +85,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'git@github.com:alexmt/resume.git',
+          remote: 'git@github.com:alexmt/edem-cafe.git',
           branch: 'gh-pages'
         }
       }
