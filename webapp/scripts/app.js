@@ -15,6 +15,6 @@ webApp.config(['$routeProvider', function ($routeProvider) {
     controller: 'MainCtrl'
   }).when('/samples', {
     templateUrl: 'views/samples.html',
-    controller: 'MainCtrl'
+    controller: 'SamplesCtrl'
   })
 }]);

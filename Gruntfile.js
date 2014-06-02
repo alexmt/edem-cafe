@@ -19,7 +19,8 @@ module.exports = function (grunt) {
               '*.html',
               'views/**/*',
               '*.ico',
-              'styles/img/**/*'
+              'styles/img/**/*',
+              'data/**/*'
             ],
             dest: '<%= app.dist %>'
           }

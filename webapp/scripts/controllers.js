@@ -1,7 +1,8 @@
 'use strict';
 
-angular.module('controllers').controller('MainCtrl', ['$scope', 'legalEntityInfo', 'menuInfo',
-  function ($scope, legalEntityInfo, menuInfo) {
+angular.module('controllers').controller('MainCtrl', ['$scope', 'legalEntityInfo',
+  function ($scope, legalEntityInfo) {
     $scope.info = legalEntityInfo;
-    $scope.workSamples = menuInfo.workSamples;
-  }]);
+  }]).controller('SamplesCtrl', ['$scope', 'menuInfo', function ($scope, menuInfo) {
+  $scope.samples = menuInfo.workSamples;
+}]);
