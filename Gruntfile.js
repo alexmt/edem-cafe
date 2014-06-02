@@ -7,7 +7,7 @@ module.exports = function (grunt) {
     app :{
       path: 'webapp',
       dist: 'dist',
-      domain: 'amatyushentsev.com'
+      domain: 'edem-cafe.info'
     },
     copy: {
       dist: {
@@ -104,7 +104,8 @@ module.exports = function (grunt) {
     'uglify',
     'copy:dist',
     'usemin',
-    'htmlmin'
+    'htmlmin',
+    'cname'
   ]);
   grunt.registerTask('default', ['build']);
 };
