@@ -26,8 +26,33 @@
   margin-top: -45px;
 }
 
-/* Home */
+/* Samples */
+.dialog {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(153, 226, 226, 0.4);
+  display: none;
+}
 
+.dialog .close {
+  margin: 10px;
+}
+
+.dialog.visible {
+  display: inherit;
+}
+
+.dialog .image {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Home */
 .work-hours {
   margin: 0;
   padding: 0 40px;
