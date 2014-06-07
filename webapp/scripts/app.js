@@ -1,8 +1,10 @@
 angular.module('controllers', []);
 angular.module('constants', []);
+angular.module('services', []);
 
 var webApp = angular.module('webApp', [
   'constants',
+  'services',
   'controllers',
   'ngRoute']);
 
@@ -16,5 +18,8 @@ webApp.config(['$routeProvider', function ($routeProvider) {
   }).when('/samples', {
     templateUrl: 'views/samples.html',
     controller: 'SamplesCtrl'
-  })
+  }).when('/menu', {
+    templateUrl: 'views/menu.html',
+    controller: 'MenuCtrl'
+  });
 }]);

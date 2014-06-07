@@ -1,11 +1,12 @@
 'use strict';
 
 angular.module('constants')
-  .constant('legalEntityInfo', {
+  .constant('cafeInfo', {
     name: 'Кафе Эдем',
     streetAddress: 'ул. Токмаковская 81-2',
     cityAddress: 'Россия, Оренбургская область, с. Илек',
-    phone: '(+7) 35337 2 10 29'
+    phone: '(+7) 35337 2 10 29',
+    menuGoogleSpreadsheetId: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
   }).constant('menuInfo', { workSamples: [
     {
       thumbnailUrl: '399343037854_13.png',

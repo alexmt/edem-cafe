@@ -1,9 +1,6 @@
 'use strict';
 
-angular.module('controllers').controller('MainCtrl', ['$scope', 'legalEntityInfo',
-  function ($scope, legalEntityInfo) {
-    $scope.info = legalEntityInfo;
-  }]).controller('SamplesCtrl', ['$scope', 'menuInfo', function ($scope, menuInfo) {
+angular.module('controllers').controller('SamplesCtrl', ['$scope', 'menuInfo', function ($scope, menuInfo) {
   $scope.isFullSizeVisible = false;
   $scope.samples = menuInfo.workSamples;
   $scope.showFullSizeImage = function (url) {

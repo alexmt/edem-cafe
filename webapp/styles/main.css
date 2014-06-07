@@ -70,6 +70,12 @@
   height: 450px;
 }
 
+/* Menu */
+
+.menu {
+  text-align: center;
+}
+
 /* Style */
 body {
   background-clip: border-box;
