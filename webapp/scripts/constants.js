@@ -6,7 +6,14 @@ angular.module('constants')
     streetAddress: 'ул. Токмаковская 81-2',
     cityAddress: 'Россия, Оренбургская область, с. Илек',
     phone: '(+7) 35337 2 10 29',
-    menuGoogleSpreadsheetId: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
+    menuGoogleSpreadsheet: {
+      id: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
+      gridId: '0'
+    },
+    hallsGoogleSpreadsheet: {
+      id: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
+      gridId: '1011565242'
+    }
   }).constant('menuInfo', { workSamples: [
     {
       thumbnailUrl: '399343037854_13.png',

@@ -6,15 +6,16 @@ var webApp = angular.module('webApp', [
   'constants',
   'services',
   'controllers',
-  'ngRoute']);
+  'ngRoute',
+  'angular-carousel']);
 
 webApp.config(['$routeProvider', function ($routeProvider) {
   $routeProvider.when('/', {
     templateUrl: 'views/home.html',
-    controller: 'MainCtrl'
+    controller: 'HomeCtrl'
   }).when('/contacts', {
     templateUrl: 'views/contacts.html',
-    controller: 'MainCtrl'
+    controller: 'ContactsCtrl'
   }).when('/samples', {
     templateUrl: 'views/samples.html',
     controller: 'SamplesCtrl'

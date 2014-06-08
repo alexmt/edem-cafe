@@ -65,6 +65,23 @@
   line-height: 50px;
 }
 
+.halls {
+  margin-bottom: 10px;
+}
+
+.halls .rn-carousel-control-prev, .halls .rn-carousel-control-next {
+  color: #99e2e2;
+  font: 50px bold;
+}
+
+.halls .rn-carousel-control-next {
+  right: 0;
+}
+
+.halls .rn-carousel-control-prev {
+  left: 0;
+}
+
 /* About Us */
 #location {
   height: 450px;
