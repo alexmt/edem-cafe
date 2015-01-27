@@ -16,7 +16,8 @@
   <link href="styles/main.css" rel="stylesheet">
   <!-- endbuild -->
 </head>
-<body>
+<body ng-controller="MainCtrl">
+<a class="feedback" ng-href="{{reviewFormUrl}}" target="_blank">НАПИСАТЬ ОТЗЫВ</a>
 <div class="container-fluid">
   <div class="row navigation control-block">
     <div class="col-md-4 col-md-offset-2 logo">
@@ -65,6 +66,7 @@
 
 <!-- build:js scripts/scripts.js -->
 <script src="scripts/app.js"></script>
+<script src="scripts/controllers/MainCtrl.js"></script>
 <script src="scripts/controllers/HomeCtrl.js"></script>
 <script src="scripts/controllers/ContactsCtrl.js"></script>
 <script src="scripts/controllers/SamplesCtrl.js"></script>

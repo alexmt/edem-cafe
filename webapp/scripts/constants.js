@@ -13,7 +13,8 @@ angular.module('constants')
     hallsGoogleSpreadsheet: {
       id:"1AvGFvtHGsS9KI5IlbY99HZML_Z1TP1N9rkbbtcI8Wqc",
       gridId:"od6"
-    }
+    },
+    reviewFormUrl: "https://docs.google.com/forms/d/1uLwb_FruluhEQswjoceA3p2g3JCJHv61eC8mSTB1UE4/viewform"
   }).constant('menuInfo', { workSamples: [
     {
       thumbnailUrl: '399343037854_13.png',
