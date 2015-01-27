@@ -93,12 +93,19 @@
   text-align: center;
 }
 
+.menu li {
+  list-style: none;
+}
+
 /* Style */
 body {
   background-clip: border-box;
   background-origin: padding-box;
-  background: url(img/theme.jpg) no-repeat 50% 0;
+  background: url(img/theme.jpg) no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 .control-block, .control-block a {

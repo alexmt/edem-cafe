@@ -7,12 +7,12 @@ angular.module('constants')
     cityAddress: 'Россия, Оренбургская область, с. Илек',
     phone: '(+7) 35337 2 10 29',
     menuGoogleSpreadsheet: {
-      id: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
-      gridId: '0'
+      id:"17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI",
+      gridId:"od6"
     },
     hallsGoogleSpreadsheet: {
-      id: '17P4iXdCmbMT1YU8FMobZW2nwzCp6culi3a46IX1dMUI',
-      gridId: '1011565242'
+      id:"1AvGFvtHGsS9KI5IlbY99HZML_Z1TP1N9rkbbtcI8Wqc",
+      gridId:"od6"
     }
   }).constant('menuInfo', { workSamples: [
     {
